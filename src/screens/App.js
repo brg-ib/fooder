@@ -1,6 +1,12 @@
 import React from 'react';
+<<<<<<< HEAD:src/screens/App.js
 import logo from '../assets/logo.svg';
 import '../screens/App.css';
+=======
+import logo from './logo.svg';
+import './App.css';
+import Swipe from './screens/Swipe'
+>>>>>>> feature_MarmitonAPI:src/App.js
 
 function App() {
   return (
@@ -19,6 +25,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Swipe/>
     </div>
   );
 }
